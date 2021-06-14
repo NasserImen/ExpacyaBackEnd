@@ -6,8 +6,11 @@ const csv = require('csv-parser')
 const path = require('path')
 const fs = require('fs')
 const File = require ('../schema/file')
+const excelToJson = require('convert-excel-to-json');
 
 const results = [];
+const parseArray =[]
+
 
 // multer upload storage
  const storage = multer.diskStorage({
@@ -30,25 +33,35 @@ const results = [];
  }
  const upload = multer ({storage : storage , fileFilter : Filter})
 
-//  upload csv file
+
+//  upload csv , xlsx and xls files
 router.post('/csvupload' , upload.single("file") , async(req , res) =>{
-    // res.json(req.file)
     console.log(req.file);
         if (req.file == undefined){
             return res.status(400).send({
-                message : 'please upload a csv file'
+                message : 'please upload a csv,xlsx and xls files'
             })
         }else{
                 console.log(req.file.path);
                 const file = new File({
                     path : req.file.path
             })
-            fs.createReadStream(req.file.path)
-            .pipe(csv())
-            .on('data', (data) => results.push(data))
-            .on('end', () => {
-            console.log(results);
-  });
+            // parse csv and excel files to json
+            if (path.extname.originalname !== '.csv'){
+                const parse = excelToJson({
+                    sourceFile: req.file.path
+                });
+                parseArray.push(parse)
+                console.log(Object.keys(parseArray[0]));
+            }
+
+                fs.createReadStream(req.file.path)
+                .pipe(csv())
+                .on('data', (data) => results.push(data))
+                .on('end', () => {
+                console.log(Object.keys(results[0]));
+      });
+            
                const f= await file.save()
                 res.json(f)
         }

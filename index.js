@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const port = 3000
 
-const uploadAPI = require('./routes/uploadcsv')
+const uploadAPI = require('./routes/uploadFile')
 
 app.use('/upload', uploadAPI)
 
