@@ -1,0 +1,109 @@
+"Internal ID","External ID","Source","Item (REQUIRED)","Description","Start Date","End Date","Theme (Business Roadmap)","% Complete (Business Roadmap)","Owner (Business Roadmap)","Bucket"
+"60be054a1f3e515d83512d7d",,"Business Roadmap","Series B Fundraising","*Roadmunk uses Markdown to format text in descriptions.*
+
+Product Owner - **Noah** from Roadmunk
+
+![Image](https://media.licdn.com/mpr/mpr/shrink_100_100/p/4/000/157/2c6/206ce33.jpg)
+
+#This is a First Level Header
+
+##This is a Second Level Header
+
+Paragraph Text
+
+Add two new lines to start a new paragraph. Add roadmap features, epics or items using the **+Item** menu.  **Import items** by clicking the **Import** button on the top right of our menu bar.
+
+We highly recommend creating different **Views** from the same dataset, with unique pivot points on for each view.  Select **+New View** from the View Selector menu.
+
+
+You can move items and headers around by *dragging and dropping*
+
+To do:
+ 
+- Create a roadmap
+- Invite team members
+- Message team members using the comments section to the right
+ 
+Steps to make roadmap:
+ 
+1. Add items
+2. Select headers
+3. Pick colors
+
+
+##Links
+
+You can connect Roadmunk with JIRA! [Click here to be sent to the JIRA login page](https://id.atlassian.com/login?application=jac&continue=https%3A%2F%2Fjira.atlassian.com)
+
+##Images
+
+![Analytics](http://images.sixrevisions.com/2010/06/03-02_google_analytics.png)","2021-04-07","2021-09-12","Finance","90%","Carly",
+"60be054a1f3e515d83512dbd",,"Business Roadmap","Define Territories","","2021-01-27","2021-02-22","Sales","30%","Carly",
+"60be054a1f3e515d83512d87",,"Business Roadmap","Analyze Business Cycle Sensitivities","","2021-07-02","2021-08-24","Industry Analysis & Research","0%","Farah",
+"60be054a1f3e515d83512d97",,"Business Roadmap","Influencer Platform","","2021-07-13","2021-08-08","Marketing","0%","Jamie",
+"60be054a1f3e515d83512d7f",,"Business Roadmap","Streamline Vendor Management","","2021-04-24","2021-07-12","Finance","40%","Carly",
+"60be054a1f3e515d83512d81",,"Business Roadmap","Cost and Complexity Drivers","","2021-07-15","2021-10-24","Finance","30%","Carly",
+"60be054a1f3e515d83512d83",,"Business Roadmap","Streamline Financial Reporting","","2021-02-21","2021-03-19","Finance","0%","Carly",
+"60be054a1f3e515d83512d85",,"Business Roadmap","Analyze Supply and Input Costs","","2021-01-06","2021-03-14","Finance","0%","Carly",
+"60be054a1f3e515d83512d7e",,"Business Roadmap","Commissions Reconciliation","","2021-05-01","2021-06-13","Finance","50%","Carly",
+"60be054a1f3e515d83512d80",,"Business Roadmap","Breakeven Analysis","","2021-02-07","2021-05-22","Finance","0%","Carly",
+"60be054a1f3e515d83512dc4",,"Business Roadmap","Commissions Modules","","2021-01-07","2021-03-31","Sales","0%","Alex",
+"60be054a1f3e515d83512dc6",,"Business Roadmap","Dashboard Setup","","2021-01-05","2021-02-06","Sales","60%","Alex",
+"60be054a1f3e515d83512dc0",,"Business Roadmap","Launch CRM and Productivity App","","2021-09-04","2021-10-01","Sales","0%","Carly",
+"60be054a1f3e515d83512d9a",,"Business Roadmap","ERP Integration","","2021-03-18","2021-04-13","Marketing","0%","Jamie",
+"60be054a1f3e515d83512d9c",,"Business Roadmap","Streamline Campaign Management","","2021-04-26","2021-07-24","Marketing","40%","Omar",
+"60be054a1f3e515d83512d9e",,"Business Roadmap","SEO Consultant","","2021-04-01","2021-07-03","Marketing","60%","Jamie",
+"60be054a1f3e515d83512d99",,"Business Roadmap","Install Social Media Platform","","2021-07-07","2021-09-21","Marketing","80%","Maria",
+"60be054a1f3e515d83512d89",,"Business Roadmap","Identify company values","","2021-07-11","2021-11-12","Industry Analysis & Research","80%","Carly",
+"60be054a1f3e515d83512d8c",,"Business Roadmap","Rivalries","","2021-09-02","2021-09-29","Industry Analysis & Research","80%","Farah",
+"60be054a1f3e515d83512d8e",,"Business Roadmap","Strategize Bypass of Barriers to entry","","2021-05-19","2021-08-04","Industry Analysis & Research","80%","Jamie",
+"60be054a1f3e515d83512d88",,"Business Roadmap","Highlight Critical Strengths & Weaknesses","","2021-06-27","2021-09-24","Industry Analysis & Research","80%","Maria",
+"60be054a1f3e515d83512d8a",,"Business Roadmap","Evaluate Opportunity/value proposition","","2021-02-21","2021-04-27","Industry Analysis & Research","0%","Jamie",
+"60be054a1f3e515d83512daa",,"Business Roadmap","Analyze service performance metrics","","2021-08-30","2021-09-25","Operations","0%","Jamie",
+"60be054a1f3e515d83512d9b",,"Business Roadmap","Build Customer Personas and Use Cases","","2021-08-02","2021-10-29","Marketing","0%","Omar",
+"60be054a1f3e515d83512dbe",,"Business Roadmap","Document Customer Challenges","","2021-07-05","2021-08-02","Sales","30%","Alex",
+"60be054a1f3e515d83512dac",,"Business Roadmap","Functional Needs","","2021-10-25","2021-11-21","Operations","0%","Jamie",
+"60be054a1f3e515d83512dc1",,"Business Roadmap","Analyze sales trends","","2021-02-13","2021-04-29","Sales","20%","Alex",
+"60be054a1f3e515d83512d8b",,"Business Roadmap","Geographical Scope","","2021-01-05","2021-03-07","Industry Analysis & Research","20%","Maria",
+"60be054a1f3e515d83512d8d",,"Business Roadmap","Potential Entrants","","2021-04-08","2021-07-04","Industry Analysis & Research","0%","Carly",
+"60be054a1f3e515d83512d8f",,"Business Roadmap","Identify Competitor Strategic Intent","","2021-08-14","2021-11-30","Industry Analysis & Research","50%","Omar",
+"60be054a1f3e515d83512d90",,"Business Roadmap","Degree of Diversification","","2021-01-04","2021-03-06","Industry Analysis & Research","60%","Farah",
+"60be054a1f3e515d83512d92",,"Business Roadmap","Value Critical Success Factors","","2021-01-04","2021-01-31","Industry Analysis & Research","20%","Jamie",
+"60be054a1f3e515d83512dc5",,"Business Roadmap","Connect with Distribution Networks","","2021-04-03","2021-07-21","Sales","85%","Carly",
+"60be054a1f3e515d83512d94",,"Business Roadmap","Demand-Supply Mechanics","","2021-03-24","2021-06-22","Industry Analysis & Research","70%","Maria",
+"60be054a1f3e515d83512d95",,"Business Roadmap","Profit Opportunities","","2021-01-04","2021-04-03","Industry Analysis & Research","30%","Carly",
+"60be054a1f3e515d83512d96",,"Business Roadmap","Service Gaps","","2021-02-15","2021-05-03","Industry Analysis & Research","20%","Omar",
+"60be054a1f3e515d83512d91",,"Business Roadmap","Review competitor annual reports and publications","","2021-03-18","2021-04-14","Industry Analysis & Research","10%","Farah",
+"60be054a1f3e515d83512d93",,"Business Roadmap","Social, governmental, and technological influences","","2021-08-08","2021-11-30","Industry Analysis & Research","90%","Jamie",
+"60be054a1f3e515d83512d82",,"Business Roadmap","Create New Expenses Budget","","2021-01-08","2021-03-31","Finance","50%","Carly",
+"60be054a1f3e515d83512d84",,"Business Roadmap","Update Cashflow Statement","","2021-01-04","2021-04-02","Finance","80%","Carly",
+"60be054a1f3e515d83512dc9",,"Business Roadmap","Engage key vendors","","2021-01-04","2021-03-22","Sales","60%","Carly",
+"60be054a1f3e515d83512d86",,"Business Roadmap","Identifying, Targeting and Engaging Potential Investors","","2021-04-13","2021-07-28","Finance","0%","Carly",
+"60be054a1f3e515d83512db3",,"Business Roadmap","3rd Party Integrations","","2021-10-21","2021-11-17","Product","20%","Omar",
+"60be054a1f3e515d83512d9d",,"Business Roadmap","Lead Generation Strategies","","2021-08-02","2021-08-29","Marketing","50%","Jamie",
+"60be054a1f3e515d83512da0",,"Business Roadmap","Ad Platform Trial","","2021-03-07","2021-06-18","Marketing","30%","Maria",
+"60be054a1f3e515d83512da3",,"Business Roadmap","Load Speed Optimization","","2021-01-04","2021-03-04","Marketing","40%","Maria",
+"60be054a1f3e515d83512da7",,"Business Roadmap","Organize Focus Group","","2021-10-02","2021-10-29","Marketing","0%","Jamie",
+"60be054a1f3e515d83512da8",,"Business Roadmap","Targeted Content","","2021-01-05","2021-01-31","Marketing","30%","Omar",
+"60be054a1f3e515d83512d9f",,"Business Roadmap","Conversion Tracking","","2021-10-09","2021-11-03","Marketing","40%","Maria",
+"60be054a1f3e515d83512dae",,"Business Roadmap","Hire Marketing Manager","","2021-06-09","2021-08-07","Operations","30%","Jamie",
+"60be054a1f3e515d83512da2",,"Business Roadmap","Repurpose media content","","2021-01-06","2021-03-10","Marketing","10%","Jamie",
+"60be054a1f3e515d83512db5",,"Business Roadmap","Usage Analytics","","2021-08-31","2021-09-26","Product","20%","Farah",
+"60be054a1f3e515d83512daf",,"Business Roadmap","Formalize Onboarding","","2021-08-01","2021-10-02","Operations","10%","Alex",
+"60be054a1f3e515d83512dbf",,"Business Roadmap","Cold Calling on Lead Lists","","2021-04-11","2021-12-11","Sales","30%","Alex",
+"60be054a1f3e515d83512da6",,"Business Roadmap","Partnerships","","2021-01-27","2021-03-31","Marketing","50%","Jamie",
+"60be054a1f3e515d83512db6",,"Business Roadmap","Analyze Trigger Points","","2021-08-22","2021-10-10","Product","50%","Omar",
+"60be054a1f3e515d83512dbb",,"Business Roadmap","Transaction System Improvements","","2021-05-09","2021-07-15","Product","30%","Omar",
+"60be054a1f3e515d83512dba",,"Business Roadmap","Build Prioritization Model","","2021-01-04","2021-04-02","Product","40%","Farah",
+"60be054a1f3e515d83512dcc",,"Business Roadmap","NPS Pilot","","2021-07-07","2021-10-04","Product","100%","Omar",
+"60be054a1f3e515d83512db2",,"Business Roadmap","Develop Continuing Education Policy","","2021-06-13","2021-09-23","Product","10%","Farah",
+"60be054a1f3e515d83512dca",,"Business Roadmap","Beta Launch","","2021-02-15","2021-05-15","Product","100%","Omar",
+"60be054a1f3e515d83512da9",,"Business Roadmap","Brand Integration","","2021-02-16","2021-04-18","Marketing","0%","Omar",
+"60be054a1f3e515d83512db4",,"Business Roadmap","Mobile Mockup","","2021-05-03","2021-07-09","Product","40%","Farah",
+"60be054a1f3e515d83512dbc",,"Business Roadmap","React Framework","","2021-01-05","2021-03-31","Product","0%","Omar",
+"60be054a1f3e515d83512db8",,"Business Roadmap","Improve User Onboarding","","2021-01-19","2021-02-14","Product","75%","Farah",
+"60be054a1f3e515d83512dc3",,"Business Roadmap","Feedback Touchpoints","","2021-05-27","2021-06-23","Sales","80%","Alex",
+"60be054a1f3e515d83512dad",,"Business Roadmap","Organize Payroll","","2021-04-20","2021-06-25","Operations","60%","Alex",
+"60be054a1f3e515d83512db0",,"Business Roadmap","Hire CS Manager","","2021-01-05","2021-03-28","Operations","0%","Jamie",
+"60be054a1f3e515d83512dab",,"Business Roadmap","Setup Screening Process","","2021-01-24","2021-03-13","Operations","80%","Alex",
+"60be054a1f3e515d83512db1",,"Business Roadmap","1st Round Interviews","","2021-02-03","2021-04-09","Operations","0%","Alex",
