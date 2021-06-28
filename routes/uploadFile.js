@@ -35,7 +35,7 @@ const Filter = (req, file, cb) => {
 };
 const upload = multer({ storage: storage, fileFilter: Filter });
 
-//  upload csv , xlsx and xls files
+//  upload and match csv , xlsx and xls files
 router.post("/upload", upload.single("file"), async (req, res) => {
   console.log(req.file);
   if (req.file == undefined) {
@@ -92,7 +92,7 @@ router.post("/upload", upload.single("file"), async (req, res) => {
     } else {
       fs.createReadStream(req.file.path)
         .pipe(csv())
-        .on("x", (x) => results.push(x))
+        .on("data", (data) => results.push(data))
         .on("end", async () => {
           Headers = Object.keys(results[0]);
           console.log(Headers);
@@ -186,17 +186,6 @@ router.post('/import/:id', async (req, res) => {
   }
 });
 
-// get all headers
-router.get('/getAllHeaders', async (req, res) => {
-  const headers = await getAllHeaders.find();
-  res.json(headers)
-})
-
-// get headers by id
-router.get('/getAllHeaders/:id',async (req,res)=>{
-  const matching = await getAllHeaders.findById(req.params.id);
-  res.json(matching)
-});
 
 module.exports = router;
 // export de router
