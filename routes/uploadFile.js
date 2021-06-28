@@ -10,8 +10,6 @@ const header = require("../schema/keys");
 const excelToJson = require("simple-excel-to-json");
 var fuzz = require("fuzzball");
 const translate = require("@vitalets/google-translate-api");
-const { match } = require("assert");
-const passport = require('passport');
 
 
 
@@ -25,7 +23,7 @@ const storage = multer.diskStorage({
     cb(null, Date.now() + "-" + file.originalname);
   },
 });
-// filter for csv files
+// filter files
 const Filter = (req, file, cb) => {
   const uloadextentions = [".csv", ".xlsx", ".xls"];
   const fileextnetion = path.extname(file.originalname);
@@ -161,7 +159,7 @@ router.post('/import/:id', async (req, res) => {
           });
   }
   else {
-      res = parser.parseXls2Json(path.resolve(`./uploads/${req.params.filename}`));
+      res = parser.parseXls2Json(req.file.path);
       await Promise.all(res[0].map(async (obj) => {
           let keys = Object.keys(obj);
           await Promise.all(keys.map(async (key) => {
@@ -184,16 +182,17 @@ router.post('/import/:id', async (req, res) => {
               }
           }));
       }))
-      const users = await Users.insertMany(res[0]);
-      res.json(users);
+      res.json(res);
   }
 });
 
+// get all headers
 router.get('/getAllHeaders', async (req, res) => {
   const headers = await getAllHeaders.find();
   res.json(headers)
 })
 
+// get headers by id
 router.get('/getAllHeaders/:id',async (req,res)=>{
   const matching = await getAllHeaders.findById(req.params.id);
   res.json(matching)
